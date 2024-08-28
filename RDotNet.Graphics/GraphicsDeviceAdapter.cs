@@ -244,11 +244,11 @@ namespace RDotNet.Graphics
 
         private void ChangeMode(int mode, IntPtr dd)
         {
-            if (mode == 0)
+            if (mode == 1)
             {
                 this.device.OnDrawStarted(this.description);
             }
-            else if (mode == 1)
+            else if (mode == 0)
             {
                 this.device.OnDrawStopped(this.description);
             }

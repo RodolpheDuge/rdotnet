@@ -57,6 +57,9 @@ namespace RDotNet.Graphics.Internals
         internal bool canGenKeybd;
 
         [MarshalAs(UnmanagedType.Bool)]
+        internal bool canGenIdle;
+
+        [MarshalAs(UnmanagedType.Bool)]
         internal bool gettingEvent;
 
         internal _DevDesc_activate activate;
